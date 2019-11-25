@@ -1,3 +1,3 @@
 #!/usr/bin/env zsh
 
-function anybar { echo -n $1 | nc -4u -w0 localhost ${2:-1738}; }
+function anybar { echo -n $1 | /usr/bin/nc -4u -w0 localhost ${2:-1738}; }
